@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int[] p = {1, 2, 3, 4};
+        int[] p = {1, 2, 3, 4, 5};
         swap(p,1,3);
         System.out.println(p[1]);
     }
