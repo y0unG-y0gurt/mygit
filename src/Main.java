@@ -1,6 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello Java!");
-        System.out.println("My name is Java1.8!");
+        int[] p = {1, 2, 3, 4};
+        swap(p,1,3);
+        System.out.println(p[1]);
+    }
+
+    private static void swap(int[] p, int i, int i1) {
+        int tmp = p[i];
+        p[i] = p[i1];
+        p[i1] = tmp;
     }
 }
