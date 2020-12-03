@@ -1,5 +1,5 @@
 public class DogCatQueue {
     public static void main(String[] args) {
-        System.out.println("local");
+        System.out.println("remote");
     }
 }
