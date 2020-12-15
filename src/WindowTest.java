@@ -1,4 +1,3 @@
-import javafx.beans.binding.ObjectExpression;
 
 class Window implements Runnable{
     private int ticket = 100;
